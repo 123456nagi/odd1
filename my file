@@ -1,0 +1,19 @@
+class Demo {
+
+	public static void main(String []n) {
+	int a = 7;
+	int b = 21;
+	int sum = 0;
+		
+	for(int i=a; i<=b; i++) {
+
+	if(i % 2 !=0) {
+	System.out.println(i);
+	sum += i;
+}
+}
+
+	System.out.println("the sum of odd numers" + sum );
+
+	}
+}
